@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Portfolio</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f4f4;
+      color:#333;
+      line-height:1.6;
+    }
+
+    header{
+      background:#222;
+      color:white;
+      padding:40px 20px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    header p{
+      color:#ccc;
+    }
+
+    .container{
+      width:90%;
+      max-width:1000px;
+      margin:auto;
+      padding:30px 0;
+    }
+
+    .card{
+      background:white;
+      padding:25px;
+      margin-bottom:20px;
+      border-radius:12px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .card h2{
+      margin-bottom:15px;
+      color:#222;
+      border-bottom:2px solid #eee;
+      padding-bottom:10px;
+    }
+
+    ul{
+      padding-left:20px;
+    }
+
+    .skills span{
+      display:inline-block;
+      background:#222;
+      color:white;
+      padding:8px 14px;
+      margin:5px;
+      border-radius:20px;
+      font-size:14px;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      background:#222;
+      color:white;
+      margin-top:20px;
+    }
+
+    @media(max-width:600px){
+      header h1{
+        font-size:30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>MY PORTFOLIO</h1>
+    <p>Student | Beginner Web Developer | Creative Learner</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        สวัสดีครับ ผมเป็นนักศึกษาที่สนใจด้านเทคโนโลยี การออกแบบเว็บไซต์ 
+        และการเรียนรู้สิ่งใหม่ ๆ ชอบพัฒนาทักษะด้านดิจิทัลและการทำงานเป็นทีม
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Education</h2>
+      <ul>
+        <li>Diploma in Business Computer</li>
+        <li>Currently studying Logistics Management</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Skills</h2>
+
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Microsoft Excel</span>
+        <span>Canva</span>
+        <span>Communication</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li>Simple Inventory Management Project</li>
+        <li>Basic Website Design Practice</li>
+        <li>Research Presentation using AI Tools</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: example@email.com</p>
+      <p>Phone: 000-000-0000</p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Simple Portfolio Page</p>
+  </footer>
+
+</body>
+</html>
